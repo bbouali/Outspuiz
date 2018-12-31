@@ -22,3 +22,5 @@ When you've done all of the above, create a Pull Request and contact us on Upwor
 
 Thank you and good luck!
 - Outspoke
+
+P.S.... if you didn't get here from Upwork.... what the heck are you doing here? Move along.... nothing to see here.... no, really.... git!
