@@ -1,5 +1,4 @@
 # Outspuiz
-Basic Javascript/JQuery/PHP CRUD for Level Setting
 
 If you reached this repo via Upwork, please do the following:
 
