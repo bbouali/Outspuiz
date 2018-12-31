@@ -20,7 +20,9 @@ If you reached this repo via Upwork, please do the following:
 
 When you've done all of the above, create a Pull Request and contact us on Upwork w/ any information we need to know. Feedback is welcome.
 
+Jobs will be offered to candidates who perform everything above in the shortest amount of time - in that order.
+
 Thank you and good luck!
 - Outspoke
 
-P.S.... if you didn't get here from Upwork.... what the heck are you doing here? Move along.... nothing to see here.... no, really.... git!
+P.S.... if you didn't get here from Upwork.... what the heck are you doing here? Git along!
