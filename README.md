@@ -20,7 +20,7 @@ If you reached this repo via Upwork, please do the following:
 
 When you've done all of the above, create a Pull Request and contact us on Upwork w/ any information we need to know. Feedback is welcome.
 
-Jobs will be offered to candidates who perform everything above in the shortest amount of time - in that order.
+Jobs will be offered to candidates based on various factors - speed being the most important. There are no bonus points - however you may redo this in node.js if you use the same MySQL and integrate it into the existing PHP framework.
 
 Thank you and good luck!
 - Outspoke
