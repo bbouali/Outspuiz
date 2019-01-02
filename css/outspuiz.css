@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Roboto";
-    src:url("./fonts/Roboto-Regular.ttf");
+    src:url("../fonts/Roboto-Regular.ttf");
 }
 body {
   font-family: Roboto;
@@ -45,7 +45,7 @@ margin:20px 0 0 20px;
   color: #757575;
   margin: 20 0 10 0;
 }
-.add_user_submit {
+.add_user_submit, .toggle_add_user_form {
   margin: 10 0 0 0;
   background:#d50000;
   border-radius:4px;
@@ -78,7 +78,7 @@ input {
   width:100%;
   margin: 40 0 0 0;
 }
-.user_cont,.user_cont_header,.user_name,.user_age,.user_email {
+.user_cont,.user_cont_header,.user_name,.user_age,.user_email,.user_phone {
   display: inline-block;
   text-align: center;
   color: #757575;
@@ -91,13 +91,16 @@ input {
   width: 60%;
 }
 .user_name {
-  width: 40%;
+  width: 25%;
 }
 .user_age {
   width: 15%;
 }
 .user_email {
-  width: 40%;
+  width: 30%;
+}
+.user_phone {
+  width: 25%;
 }
 #front_panel {
   position:fixed;
@@ -114,7 +117,7 @@ input {
 }
 #panel_title {
   text-align: center;
-  font-size; 22px;
+  font-size: 22px;
   color: #424242;
   font-weight: bold;
   border-radius: 2px;
@@ -129,4 +132,48 @@ input {
   margin-left: 10;
   border-radius: 2px;
   padding: 2;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #d50000;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 110%;
+  vertical-align: middle
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #d50000 transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip .tooltiptext {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+  opacity: 1;
 }
